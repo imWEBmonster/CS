@@ -1,0 +1,253 @@
+
+
+// 头部区域
+.title {
+  display: flex;
+  justify-content: space-between;
+  height: 70px;
+  background-color: #0a5acd;
+  padding: 10px 40px;
+  box-sizing: border-box;
+
+  .left {
+    width: 380px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    img {
+      height: 50px;
+    }
+    span {
+      font-size: 30px;
+      color: white;
+      font-weight: 900;
+    }
+  }
+
+  .right {
+    div {
+      color: white;
+    }
+
+    .h {
+      font-size: 20px;
+      font-weight: 600;
+      margin-bottom: 5px;
+    }
+  }
+}
+
+//主体部分
+.body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  height: 650px;
+  background-image: url(../img/background.png);
+  background-size: cover;
+
+  .login {
+    width: 430px;
+    height: 500px;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+
+    .pic {
+      margin: 10px auto 0;
+      width: 171.5px;
+      height: 55px;
+
+      img {
+        width: 171.5px;
+      }
+    }
+
+    .text {
+      text-align: center;
+      margin: 5px auto 0;
+      color: rgb(255, 174, 0);
+
+      .top {
+        margin: 0 auto 10px;
+        width: 150px;
+        height: 40px;
+        color: white;
+        font-size: 20px;
+        line-height: 40px;
+        text-align: center;
+        border-bottom: 2px solid white;
+      }
+
+      .input {
+        margin: 10px 5px;
+        width: 410px;
+        height: 200px;
+        border: #cdff35;
+
+        input {
+          margin-top: 10px;
+          width: 300px;
+          height: 35px;
+          border-radius: 5px;
+        }
+
+        .ask {
+          margin-top: 10px;
+          margin-left: 60px;
+          width: 480px;
+          height: 30px;
+          line-height: 30px;
+          display: flex;
+          justify-content: space-between;
+          font-size: 10px;
+
+          input {
+            width: 15px;
+            height: 15px;
+          }
+
+          .noLogin {
+            color: white;
+            font-size: 12px;
+          }
+
+          .ask2 {
+            border-radius: 5px;
+            color: white;
+            background-color: black;
+            opacity: 0.5;
+          }
+        }
+  
+        .submit {
+          color: white;
+          margin-top: 40px;
+          background-color: #0a5cad;
+        }
+      }
+
+      .recommend {
+        margin: 20px auto;
+        color: white;
+        font-size: 18px;
+      }
+
+      a {
+        text-decoration: none;
+        color: white;
+        font-weight: 600;
+      }
+
+      .warning {
+        margin-top: 10px;
+        color: yellow;
+        font-size: 14px;
+        font-weight: 400;
+      }
+    }
+  }
+}
+
+// 底部区域
+.banner {
+  height: 255px;
+  background-image: url(../img/bannerBack.png);
+  background-size: cover;
+  background-position:  center;
+
+  .txt {
+    padding-top: 25px;
+    margin: 12px 80px 0;
+    font-size: 16px;
+    color: white;
+  }
+
+  .pic {
+    display: flex;
+    margin: 20px 80px 0;
+    width: 1200px;
+    height: 137px;
+    color: aliceblue;
+
+    .text {
+      width: 905px;
+      height: 84px;
+      display: flex;
+      justify-content: space-between;
+
+      div {
+        background-color: rgba(0, 0, 0, 0.4);
+        border-radius: 8px;
+        width: 310px;
+        font-size: 14px;
+        padding-left: 20px;
+      }
+
+      div:nth-child(1) {
+        width: 200px;
+      }
+    }
+
+    .QR {
+      flex: 1;
+      margin-left: 60px;
+      display: flex;
+      justify-content: space-between;
+
+        .left,.right {
+          width: 105px;
+          height: 137px;
+          
+          img {
+            width: 105px;
+            height: 105px;
+          }
+
+          p {
+            margin-top: 10px;
+            font-size: 12px;
+            text-align: center;
+          }
+        }
+      }
+    }
+
+  .bottom {
+    background-color: rgb(55, 55, 210);
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    color: aliceblue;
+    font-size: 14px;
+  }
+}
+
+.writer {
+  margin: 28px auto;
+  width: 200px;
+  height: 30px;
+  background-color: #fff;
+  color: #fff;
+  text-align: center;
+  border-radius: 5px;
+
+  a {
+    text-decoration: none;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 30px;
+    color: white;
+  }
+}
+
+.writer:hover {
+  background-color: rgb(55, 55, 210);
+}
+
+    
+  
+
+  

@@ -1,0 +1,72 @@
+.title {
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    background-color: #0a5acd;
+    padding: 10px 40px;
+    box-sizing: border-box;
+}
+.title .left {
+    width: 380px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.title .left img {
+    height: 50px;
+}
+.title .left span {
+    font-size: 30px;
+    color: white;
+    font-weight: 900;
+}
+.title .right div {
+    color: white;
+}
+.title .right .h {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+body {
+    background-image: url("../img/loginBack.png");
+    background-size: cover;
+}
+
+.txt {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 800;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 800;
+    color: white;
+}
+
+.vote {
+    text-align: center;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.vote form div .cin {
+    margin-right: 5px;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.vote .warning {
+    font-size: 15px;
+    font-weight: 700;
+}
+
+
+
+
+
+
